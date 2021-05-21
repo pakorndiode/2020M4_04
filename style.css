@@ -48,9 +48,22 @@ body {
 }
 @media screen and (max-width: 768px){
     .banner{
-    background-color: darkblue;
+        background-color: darkblue;
+        width: 100%;
     }
     .sideboard{
+        width: 100%;
         background-color: darkgoldenrod;
+    }
+    .content{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1024px){
+    .sideboard{
+        width: 50%;
+    }
+    .content{
+        width: 35%;
     }
 }
