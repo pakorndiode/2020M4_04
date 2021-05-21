@@ -61,9 +61,9 @@ body {
 }
 @media screen and (min-width: 992px) and (max-width: 1024px){
     .sideboard{
-        width: 50%;
+        width: 60%;
     }
     .content{
-        width: 35%;
+        width: 40%;
     }
 }
